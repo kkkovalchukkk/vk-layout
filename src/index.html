@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a href="/" class="logo-link">
+          <div class="logo">
+            <svg width="136" height="24">
+              <use xlink:href="./assets/img/vk-logo.svg#vk-logo"></use>
+            </svg>
+          </div>
+        </a>
+        <form class="finder-form">
+          <div class="finder-form__finder">
+            <box-icon name="search"></box-icon>
+            <input type="text" placeholder="Поиск" class="finder-form__input" />
+          </div>
+        </form>
+        <div class="notifications">
+          <a href="#" class="notifications__btn">
+            <box-icon name="bell"></box-icon>
+          </a>
+        </div>
+        <div class="player">
+          <div class="player-menu">
+            <button class="player-menu__previous">
+              <box-icon name="skip-previous"></box-icon>
+            </button>
+            <button class="player-menu__play">
+              <box-icon name="play"></box-icon>
+            </button>
+            <button class="player-menu__next">
+              <box-icon name="skip-next"></box-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

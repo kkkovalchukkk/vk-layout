@@ -1,0 +1,16 @@
+a {
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+input {
+  border: none;
+  background: none;
+  &:focus {
+    outline: none;
+  }
+}
